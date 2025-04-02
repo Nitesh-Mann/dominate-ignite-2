@@ -206,7 +206,7 @@ body {
 .to-top i {
   padding: 12px;
   border-radius: 50%;
-  background-color: var(--color1);
+  background-color: var(--new-color1);
   color: var(--color2);
 }
 
