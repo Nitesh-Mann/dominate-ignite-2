@@ -1,0 +1,205 @@
+/*contact page */
+
+.contact-page {
+  background-color: var(--body);
+}
+
+.contact-content {
+  display: flex;
+  align-items: center;
+  padding-top: 14vw;
+}
+
+.contact-head h1 {
+  font-size: 92px;
+  font-family: var(--national);
+  font-weight: 500;
+  color: var(--text);
+  padding-bottom: 5vw;
+  border-bottom: 1px solid var(--color6);
+  margin-bottom: 4vw;
+}
+
+.contact-head form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact-head form label {
+  font-family: var(--satoshi);
+  font-weight: 400;
+  font-size: 22px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  margin-bottom: 20px;
+}
+
+.contact-head form label span {
+  color: var(--text);
+  font-size: 18px;
+}
+
+.contact-head form input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--color3);
+  padding: 20px;
+  caret-color: var(--white);
+  color: var(--text);
+}
+
+.contact-head form input:focus {
+  background-color: transparent;
+  box-shadow: none;
+  color: var(--text);
+}
+
+.contact-head form input::placeholder {
+  font-family: var(--satoshi);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text);
+}
+
+.contact-head form textarea {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--text);
+  color: var(--text);
+}
+
+.contact-head form textarea:focus {
+  background-color: transparent;
+  box-shadow: none;
+  color: var(--text);
+}
+
+.contact-head form button {
+  text-transform: uppercase;
+  padding: 18px 32px;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 30px;
+  background-color: var(--body);
+  color: var(--text);
+}
+
+.contact-profile .contact-img img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid var(--text);
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-details h4 {
+  font-family: var(--satoshi);
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color2);
+}
+
+.contact-details a {
+  text-decoration: none;
+  font-family: var(--satoshi);
+  font-weight: 500;
+  color: var(--text);
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.contact-profile i {
+  font-size: 22px;
+  color: var(--text);
+}
+
+.checkbox-input {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.checkbox-input input {
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox-input label {
+  gap: 8px !important;
+  margin: 0 !important;
+  font-size: 20px !important;
+}
+
+.checkbox-input label a {
+  text-decoration: none;
+}
+
+/*responsive*/
+
+/* mobile phones to tablet devices*/
+@media (max-width: 991.98px) {
+  /*contact page */
+
+  .contact-content {
+    padding-top: 30vw;
+  }
+
+  .contact-head h1 {
+    font-size: 42px;
+    padding-bottom: 10vw;
+    margin-bottom: 14vw;
+  }
+
+  .contact-head form {
+    gap: 50px;
+  }
+
+  .contact-head form label {
+    font-size: 20px;
+    gap: 30px;
+  }
+
+  .contact-head form input::placeholder {
+    font-size: 14px;
+  }
+  .checkbox-input {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: start;
+    gap: 1em;
+  }
+
+  .checkbox-input label {
+    gap: 8px !important;
+    margin: 0 !important;
+    font-size: 18px !important;
+    flex-wrap: wrap;
+  }
+}
+
+/*mobile devices*/
+@media (max-width: 575.98px) {
+}
+
+/*table devices*/
+@media (min-width: 575.99px) and (max-width: 991.98px) {
+}
+/*large desktop devices*/
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+}
+
+@media (min-width: 1199.98px) and (max-width: 1366.98px) {
+}
+
+/*extra large desktop devices */
+@media (min-width: 1366.98px) and (max-width: 1512.98px) {
+}
