@@ -954,7 +954,13 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3em;
-  padding-right: 5em;
+  /* padding-right: 5em; */
+}
+
+.head-btns .test-text p {
+  font-family: var(--satoshi);
+  font-size: 16px;
+  margin-bottom: 2em;
 }
 
 .swiper-btns {
