@@ -178,7 +178,7 @@ window.addEventListener("scroll", function () {
   let header = document.querySelector(".header1-wrapper");
   if (window.scrollY > 150) {
     // Change 50 to adjust when the effect starts
-    header.style.backgroundColor = "var(--body)";
+    header.style.backgroundColor = "var(--white)";
   } else {
     header.style.backgroundColor = "transparent";
   }

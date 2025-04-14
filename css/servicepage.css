@@ -131,7 +131,7 @@
 
   .servicepage-content h5 {
     font-size: 18px;
-    color: var(--color2);
+    /* color: var(--color2); */
   }
 
   .servicepage-content h3 {

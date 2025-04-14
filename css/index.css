@@ -493,7 +493,7 @@ body {
 .checkmark span {
   width: 30px;
   height: 2.5px;
-  background-color: var(--white);
+  background-color: var(--body);
   border-radius: 20px;
   position: absolute;
   transition: all 0.3s ease-in-out;
@@ -550,7 +550,7 @@ body {
   left: 0;
   width: 100%;
   height: fit-content;
-  background-color: var(--body);
+  background-color: var(--white);
   z-index: 80;
   padding: 6em 1em 0em 2em;
   transform: translateY(-150%);
@@ -581,11 +581,11 @@ body {
   text-decoration: none;
   font-family: var(--satoshi);
   font-size: 24px;
-  color: var(--text);
+  color: var(--body);
 }
 
 .header2-content ul li a:hover {
-  color: var(--color2);
+  color: var(--new-color1);
 }
 
 /*terms-condition - privacy-policy*/
@@ -1402,7 +1402,7 @@ body {
 
   .header1-wrapper {
     padding: 0.2em 1em;
-    transition: ease 0.5s;
+    transition: ease 0.1s;
     border-radius: 0px 0px 10px 10px;
   }
 
@@ -1441,18 +1441,18 @@ body {
     height: 100%;
   }
 
-  .sparkles-1 {
+  /* .sparkles-1 {
     top: -55px;
     right: 8%;
     height: 100px;
     width: 100px;
     opacity: 0.5;
-  }
+  } */
 
-  .grid {
+  /* .grid {
     position: absolute;
     top: 0px;
-  }
+  } */
 
   .section1-content {
     gap: 1.4em;
@@ -1461,7 +1461,6 @@ body {
   }
 
   .heading h1 {
-    color: var(--text);
     font-size: 36px;
     line-height: 45px;
     text-align: start;
@@ -1584,8 +1583,16 @@ body {
   }
 
   .head-btns {
+    gap: 1em;
+    flex-direction: column;
     margin-bottom: 2em;
     padding-right: 0em;
+  }
+
+  .head-btns .test-text p {
+    font-family: var(--satoshi);
+    font-size: 16px;
+    margin-bottom: 2em;
   }
 
   .testimonial-card {
@@ -1676,6 +1683,7 @@ body {
   .footer-head-content p:nth-child(2) {
     font-size: 16px;
     line-height: 30px;
+    width: 100%;
   }
 
   .footer-menus {
@@ -1709,6 +1717,17 @@ body {
   .footer-copyright {
     padding: 1em 0em;
     flex-direction: column;
+  }
+
+  /*new sections*/
+
+  .new-section1-wrapper {
+    /* background-color: var(--new-color2); */
+    margin-bottom: 0em;
+  }
+
+  .new-section1 p {
+    width: 100%;
   }
 }
 
