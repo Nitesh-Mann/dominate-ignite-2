@@ -5,12 +5,14 @@
   justify-content: center;
   align-items: center;
   gap: 1em;
+  background-color: var(--new-color1);
 }
 
 .thanku-content img {
   object-fit: contain;
   width: 500px;
   height: auto;
+  /* filter: invert(1); */
 }
 
 .thanku-content p {
@@ -21,10 +23,15 @@
   line-height: 32px;
 }
 
-.rays {
+.thanku-content .btns {
+  background-color: var(--white);
+  color: var(--new-color1);
+}
+
+/* .rays {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-}
+} */
