@@ -954,7 +954,10 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3em;
-  /* padding-right: 5em; */
+}
+
+.padding-head {
+  padding-right: 5em;
 }
 
 .head-btns .test-text p {
